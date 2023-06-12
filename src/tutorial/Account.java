@@ -12,13 +12,13 @@ public class Account {
 	double balance = 0L;
 	
 	public void credit(double creditAmount) {
-		double newBalance = balance + creditAmount;
-		balance = newBalance;
+		double increasedBalance = balance + creditAmount;
+		balance = increasedBalance;
 	}
 	
 	public void debit(double debitAmount) {
-		double newBalance = balance + debitAmount;
-		balance = newBalance;
+		double decreasedBalance = balance - debitAmount;
+		balance = decreasedBalance;
 	}
 	
 }

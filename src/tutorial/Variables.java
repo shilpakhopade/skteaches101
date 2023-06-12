@@ -9,6 +9,8 @@ public class Variables {
 	
 	public static void main(String[] args) {
 		
+		Account a = new Account();
+		
 		System.out.println("Class variable:" + classVariable);
 		classVariable = "classVariable";
 		System.out.println("Class variable:" + classVariable);
