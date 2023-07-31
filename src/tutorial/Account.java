@@ -9,7 +9,7 @@ public class Account {
 	
 	static String ifscCode = "IFSC0001";
 	
-	double balance = 0L;
+	double balance = 0;
 	
 	public void credit(double creditAmount) {
 		double increasedBalance = balance + creditAmount;

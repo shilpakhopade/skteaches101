@@ -5,7 +5,6 @@ public class Welcome {
 	public static void main(String[] args) {
 
 		System.out.println("Welcome to java");
-		
 		variableDemo();
 
 	}
@@ -34,7 +33,7 @@ public class Welcome {
 		System.out.println("Instance variable for account b");
 		System.out.println(b.accountId);
 		System.out.println(b.accountHolderName);
-
+		
 	}
 
 }
